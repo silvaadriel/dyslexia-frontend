@@ -10,6 +10,8 @@ import {
 } from '@material-ui/core';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons/';
 import SwipeableViews from 'react-swipeable-views';
+import LessonCard from './LessonCard';
+import colors from '../utils/backgroundColors';
 
 const useStyles = makeStyles({
   card: {
@@ -17,7 +19,7 @@ const useStyles = makeStyles({
   },
   mobileStepper: {
     justifyContent: 'space-around',
-    background: 'transparent'
+    background: 'transparent',
   },
 });
 
@@ -39,8 +41,13 @@ const SwipeableModules = ({ modules }) => {
         onChangeIndex={handleStepChange}
         enableMouseEvents
       >
-        {modules.map(module => (
-          <Card square className={classes.card} key={module.title}>
+        {modules.map((module, index) => (
+          <Card
+            square
+            style={{ background: colors[index] }}
+            className={classes.card}
+            key={module.title}
+          >
             <CardContent>
               <Grid
                 container
@@ -56,8 +63,7 @@ const SwipeableModules = ({ modules }) => {
                 </Grid>
                 {module.lessons.map((lesson, index) => (
                   <Grid item md sm={12} xs={12} key={index}>
-                    {/* <LessonCard lesson={lesson} /> */}
-                    Lesson Area
+                    <LessonCard lesson={lesson} />
                   </Grid>
                 ))}
               </Grid>
