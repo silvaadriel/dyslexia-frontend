@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Módulo 1",
+    "color": "#FEC33F",
+    "lessons": [
+      {
+        "moduleId": 1,
+        "lessonId": 1,
+        "lesonId": 1,
+        "title": "Lição 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium dui sit amet diam blandit, ac lobortis lacus dictum. Duis tincidunt vel massa eu dictum.",
+        "stars": 0
+      },
+      {
+        "moduleId": 1,
+        "lessonId": 2,
+        "title": "Lição 2",
+        "description": "Descrição",
+        "stars": 3
+      },
+      {
+        "moduleId": 1,
+        "lessonId": 3,
+        "title": "Lição 3",
+        "description": "Descrição",
+        "stars": 2
+      },
+      {
+        "moduleId": 1,
+        "lessonId": 4,
+        "title": "Lição 4",
+        "description": "Descrição",
+        "stars": 1
+      }
+    ]
+  },
+  {
+    "title": "BBBBBBB",
+    "color": "#DA674F",
+    "lessons": [
+      {
+        "moduleId": 2,
+        "lessonId": 1,
+        "title": "Lição 1",
+        "description": "Descrição",
+        "stars": 2
+      },
+      {
+        "moduleId": 2,
+        "lessonId": 2,
+        "title": "Lição 2",
+        "description": "Descrição",
+        "stars": 3
+      },
+      {
+        "moduleId": 2,
+        "lessonId": 3,
+        "title": "Lição 3",
+        "description": "Descrição",
+        "stars": 0
+      }
+    ]
+  },
+  {
+    "title": "CCCCCCCC",
+    "color": "#A2D076",
+    "lessons": [
+      {
+        "moduleId": 3,
+        "lessonId": 1,
+        "title": "Lição 1",
+        "description": "Descrição",
+        "stars": 2
+      },
+      {
+        "moduleId": 3,
+        "lessonId": 2,
+        "title": "Lição 2",
+        "description": "Descrição",
+        "stars": 3
+      },
+      {
+        "moduleId": 3,
+        "lessonId": 3,
+        "title": "Lição 3",
+        "description": "Descrição",
+        "stars": 0
+      }
+    ]
+  },
+  {
+    "title": "DDDDDDDDD",
+    "color": "#904A6A",
+    "lessons": [
+      {
+        "moduleId": 4,
+        "lessonId": 1,
+        "title": "Lição 1",
+        "description": "Descrição",
+        "stars": 2
+      },
+      {
+        "moduleId": 4,
+        "lessonId": 2,
+        "title": "Lição 2",
+        "description": "Descrição",
+        "stars": 3
+      },
+      {
+        "moduleId": 4,
+        "lessonId": 3,
+        "title": "Lição 3",
+        "description": "Descrição",
+        "stars": 0
+      }
+    ]
+  },
+  {
+    "title": "EEEEEEEE",
+    "color": "#E95980",
+    "lessons": [
+      {
+        "moduleId": 5,
+        "lessonId": 1,
+        "title": "Lição 1",
+        "description": "Descrição",
+        "stars": 2
+      },
+      {
+        "moduleId": 5,
+        "lessonId": 2,
+        "title": "Lição 2",
+        "description": "Descrição",
+        "stars": 3
+      },
+      {
+        "moduleId": 5,
+        "lessonId": 3,
+        "title": "Lição 3",
+        "description": "Descrição",
+        "stars": 0
+      }
+    ]
+  }
+]
