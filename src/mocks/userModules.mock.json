@@ -1,12 +1,10 @@
 [
   {
     "title": "Módulo 1",
-    "color": "#FEC33F",
     "lessons": [
       {
         "moduleId": 1,
         "lessonId": 1,
-        "lesonId": 1,
         "title": "Lição 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium dui sit amet diam blandit, ac lobortis lacus dictum. Duis tincidunt vel massa eu dictum.",
         "stars": 0
@@ -35,8 +33,7 @@
     ]
   },
   {
-    "title": "BBBBBBB",
-    "color": "#DA674F",
+    "title": "Módulo 2",
     "lessons": [
       {
         "moduleId": 2,
@@ -62,8 +59,7 @@
     ]
   },
   {
-    "title": "CCCCCCCC",
-    "color": "#A2D076",
+    "title": "Módulo 3",
     "lessons": [
       {
         "moduleId": 3,
@@ -89,8 +85,7 @@
     ]
   },
   {
-    "title": "DDDDDDDDD",
-    "color": "#904A6A",
+    "title": "Módulo 4",
     "lessons": [
       {
         "moduleId": 4,
@@ -116,8 +111,7 @@
     ]
   },
   {
-    "title": "EEEEEEEE",
-    "color": "#E95980",
+    "title": "Módulo 5",
     "lessons": [
       {
         "moduleId": 5,
