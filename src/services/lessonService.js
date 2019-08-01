@@ -1,6 +1,6 @@
 import lessonsMock from '../mocks/moduleLessons.mock.json';
 
-const fetchLessonQuestions = ({ lessonId, moduleId }) => {
+const fetchQuestions = ({ lessonId, moduleId }) => {
   return new Promise(resolve => {
     setTimeout(() => {
       const module = lessonsMock.filter(module => module.moduleId === moduleId);
@@ -14,4 +14,4 @@ const fetchLessonQuestions = ({ lessonId, moduleId }) => {
   });
 };
 
-export default fetchLessonQuestions;
+export default fetchQuestions;
