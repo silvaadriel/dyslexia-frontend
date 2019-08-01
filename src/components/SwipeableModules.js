@@ -16,6 +16,7 @@ import colors from '../utils/backgroundColors';
 const useStyles = makeStyles({
   card: {
     minHeight: '100vh',
+    paddingBottom: '50px'
   },
   mobileStepper: {
     justifyContent: 'space-around',
