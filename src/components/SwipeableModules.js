@@ -16,11 +16,12 @@ import colors from '../utils/backgroundColors';
 const useStyles = makeStyles({
   card: {
     minHeight: '100vh',
-    paddingBottom: '50px'
+    paddingBottom: '50px',
   },
-  mobileStepper: {
+  mobileStepperRoot: {
     justifyContent: 'space-around',
     background: 'transparent',
+    padding: '20px',
   },
 });
 
@@ -73,7 +74,7 @@ const SwipeableModules = ({ modules }) => {
         ))}
       </SwipeableViews>
       <MobileStepper
-        className={classes.mobileStepper}
+        classes={{ root: classes.mobileStepperRoot }}
         steps={maxSteps}
         activeStep={activeStep}
         nextButton={
