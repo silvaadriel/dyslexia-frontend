@@ -5,15 +5,29 @@ import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons/';
 import QuestionCard from './QuestionCard';
 import SwipeableViews from 'react-swipeable-views';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   card: {
     minHeight: '100vh',
+    paddingBottom: '50px',
   },
-  mobileStepper: {
+  mobileStepperRoot: {
     justifyContent: 'space-around',
     background: 'transparent',
+    padding: '20px',
   },
-});
+  mobileStepperProgress: {
+    width: '35%',
+    height: '10px',
+    borderRadius: '10px',
+    [theme.breakpoints.down('xs')]: {
+      width: '100%',
+      height: '4px',
+      position: 'absolute',
+      bottom: '0px',
+      borderRadius: '0px',
+    },
+  },
+}));
 
 const SwipeableQuestions = ({ questions }) => {
   const classes = useStyles();
@@ -39,7 +53,10 @@ const SwipeableQuestions = ({ questions }) => {
       </SwipeableViews>
       <MobileStepper
         variant="progress"
-        className={classes.mobileStepper}
+        classes={{
+          root: classes.mobileStepperRoot,
+          progress: classes.mobileStepperProgress,
+        }}
         steps={maxSteps}
         activeStep={activeStep}
         nextButton={
