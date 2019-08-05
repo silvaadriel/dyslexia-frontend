@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
     paddingBottom: '50px',
   },
   mobileStepperRoot: {
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     background: 'transparent',
     padding: '20px',
   },
@@ -20,12 +20,33 @@ const useStyles = makeStyles(theme => ({
     width: '35%',
     height: '10px',
     borderRadius: '10px',
+    marginLeft: theme.spacing(10),
+    marginRight: theme.spacing(10),
     [theme.breakpoints.down('xs')]: {
       width: '100%',
       height: '4px',
+      margin: '0',
       position: 'absolute',
       bottom: '0px',
       borderRadius: '0px',
+    },
+  },
+  rightFab: {
+    '&.MuiFab-sizeMedium': {
+      boxShadow: 'none',
+      [theme.breakpoints.down('xs')]: {
+        width: '40%',
+        borderRadius: '0px 20px 20px 0px',
+      },
+    },
+  },
+  leftFab: {
+    '&.MuiFab-sizeMedium': {
+      boxShadow: 'none',
+      [theme.breakpoints.down('xs')]: {
+        width: '40%',
+        borderRadius: '20px 0px 0px 20px',
+      },
     },
   },
 }));
@@ -44,10 +65,7 @@ const SwipeableQuestions = ({ questions }) => {
 
   return (
     <Grid>
-      <SwipeableViews
-        index={activeStep}
-        onChangeIndex={handleStepChange}
-      >
+      <SwipeableViews index={activeStep} onChangeIndex={handleStepChange}>
         {questions.map((question, index) => (
           <QuestionCard step={question} key={index} />
         ))}
@@ -64,6 +82,7 @@ const SwipeableQuestions = ({ questions }) => {
           <Fab
             variant="extended"
             size="medium"
+            classes={{ extended: classes.rightFab }}
             onClick={handleNext}
             disabled={activeStep === maxSteps - 1 || !globalState.isAnswered}
             aria-label="Próximo"
@@ -76,6 +95,7 @@ const SwipeableQuestions = ({ questions }) => {
           <Fab
             variant="extended"
             size="medium"
+            classes={{ extended: classes.leftFab }}
             onClick={handleBack}
             disabled={activeStep === 0}
             aria-label="Anterior"
