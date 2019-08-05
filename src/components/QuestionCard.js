@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import useGlobal from '../store';
 import { makeStyles } from '@material-ui/core/styles';
 import { VolumeUp } from '@material-ui/icons';
 import {
@@ -8,6 +9,7 @@ import {
   Typography,
   Grid,
   IconButton,
+  Box,
 } from '@material-ui/core';
 import { ToggleButton, ToggleButtonGroup } from '@material-ui/lab';
 
@@ -52,6 +54,16 @@ const useStyles = makeStyles({
 const QuestionCard = ({ step }) => {
   const classes = useStyles();
 
+  const [globalState, globalActions] = useGlobal();
+  const [alternative, setAlternative] = useState('');
+
+  const handleChange = (event, newAlternative) => {
+    setAlternative(newAlternative);
+
+    if (newAlternative) globalActions.answer.setIsAnswered(true);
+    else globalActions.answer.setIsAnswered(false);
+  };
+
   return (
     <Card square className={classes.card}>
       <CardContent>
@@ -65,7 +77,7 @@ const QuestionCard = ({ step }) => {
           <Grid item container spacing={4} justify="center" alignItems="center">
             <Grid item>
               <Typography align="center" component="h1" variant="h4">
-                {step.question}
+                <Box fontWeight="600">{step.question}</Box>
               </Typography>
             </Grid>
             <Grid item>
@@ -84,8 +96,8 @@ const QuestionCard = ({ step }) => {
             />
           </Grid>
           <ToggleButtonGroup
-            // value={}
-            // onChange={}
+            value={alternative}
+            onChange={handleChange}
             classes={{ root: classes.toggleButtonGroupRoot }}
             exclusive
           >
