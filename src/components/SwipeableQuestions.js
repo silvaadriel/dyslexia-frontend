@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import useGlobal from '../store';
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid, MobileStepper, Fab } from '@material-ui/core';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons/';
@@ -33,6 +34,7 @@ const SwipeableQuestions = ({ questions }) => {
   const classes = useStyles();
   const maxSteps = questions.length;
   const [activeStep, setActiveStep] = useState(0);
+  const [globalState, globalActions] = useGlobal();
 
   const handleBack = () => setActiveStep(prevActiveStep => prevActiveStep - 1);
 
@@ -45,7 +47,6 @@ const SwipeableQuestions = ({ questions }) => {
       <SwipeableViews
         index={activeStep}
         onChangeIndex={handleStepChange}
-        enableMouseEvents
       >
         {questions.map((question, index) => (
           <QuestionCard step={question} key={index} />
@@ -64,7 +65,7 @@ const SwipeableQuestions = ({ questions }) => {
             variant="extended"
             size="medium"
             onClick={handleNext}
-            disabled={activeStep === maxSteps - 1}
+            disabled={activeStep === maxSteps - 1 || !globalState.isAnswered}
             aria-label="Próximo"
           >
             Próximo
