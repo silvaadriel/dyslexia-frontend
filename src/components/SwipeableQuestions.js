@@ -59,7 +59,15 @@ const SwipeableQuestions = ({ questions }) => {
 
   const handleBack = () => setActiveStep(prevActiveStep => prevActiveStep - 1);
 
-  const handleNext = () => setActiveStep(prevActiveStep => prevActiveStep + 1);
+  const handleNext = () => {
+    if (globalState.isVerified) {
+      setActiveStep(prevActiveStep => prevActiveStep + 1);
+      globalActions.answer.setIsVerified(false);
+      globalActions.answer.setIsAnswered(false);
+    } else {
+      globalActions.answer.verifyAnswer({});
+    }
+  };
 
   const handleStepChange = step => setActiveStep(step);
 
@@ -85,9 +93,9 @@ const SwipeableQuestions = ({ questions }) => {
             classes={{ extended: classes.rightFab }}
             onClick={handleNext}
             disabled={activeStep === maxSteps - 1 || !globalState.isAnswered}
-            aria-label="Próximo"
+            aria-label={globalState.isVerified ? 'Próximo' : 'Verificar'}
           >
-            Próximo
+            {globalState.isVerified ? 'Próximo' : 'Verificar'}
             <KeyboardArrowRight />
           </Fab>
         }
