@@ -5,6 +5,8 @@ import * as actions from '../actions';
 
 const initialState = {
   isAnswered: false,
+  isVerified: false,
+  currentAnswer: '',
 };
 
 const useGlobal = useGlobalHook(React, initialState, actions);
