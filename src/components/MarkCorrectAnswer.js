@@ -97,7 +97,7 @@ const MarkCorrectAnswer = ({ step }) => {
             key={index}
             classes={{ root: classes.toggleButtonRoot }}
             value={alternative}
-            // disabled={}
+            disabled={globalState.isVerified}
           >
             {alternative}
           </ToggleButton>
