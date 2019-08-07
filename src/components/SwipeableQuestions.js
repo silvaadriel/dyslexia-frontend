@@ -65,7 +65,7 @@ const SwipeableQuestions = ({ questions }) => {
       globalActions.answer.setIsVerified(false);
       globalActions.answer.setIsAnswered(false);
     } else {
-      globalActions.answer.verifyAnswer({});
+      globalActions.answer.verifyAnswer(activeStep);
     }
   };
 
