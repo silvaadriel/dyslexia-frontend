@@ -53,8 +53,12 @@ const MarkCorrectAnswer = ({ step }) => {
   const handleChange = (event, newAlternative) => {
     setAlternative(newAlternative);
 
-    if (newAlternative) globalActions.answer.setIsAnswered(true);
-    else globalActions.answer.setIsAnswered(false);
+    if (newAlternative) {
+      globalActions.answer.setIsAnswered(true);
+      globalActions.answer.setCurrentAnswer(newAlternative);
+    } else {
+      globalActions.answer.setIsAnswered(false);
+    }
   };
 
   return (
