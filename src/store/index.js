@@ -7,6 +7,8 @@ const initialState = {
   isAnswered: false,
   isVerified: false,
   currentAnswer: '',
+  modules: [],
+  questions: [],
 };
 
 const useGlobal = useGlobalHook(React, initialState, actions);
