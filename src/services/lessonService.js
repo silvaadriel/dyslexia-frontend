@@ -3,10 +3,12 @@ import lessonsMock from '../mocks/moduleLessons.mock.json';
 const fetchQuestions = ({ lessonId, moduleId }) => {
   return new Promise(resolve => {
     setTimeout(() => {
-      const module = lessonsMock.filter(module => module.moduleId === moduleId);
+      const module = lessonsMock.filter(
+        module => module.id === parseInt(moduleId)
+      );
 
       const questions = module[0].lessons.filter(
-        lesson => lesson.lessonId === lessonId
+        lesson => lesson.id === parseInt(lessonId)
       )[0].questions;
 
       resolve(questions);
