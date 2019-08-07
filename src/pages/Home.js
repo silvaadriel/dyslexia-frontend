@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
+import useGlobal from '../store';
 import SwipeableModules from '../components/SwipeableModules';
-import fetchModules from '../services/modulesService';
 
 const Home = () => {
-  const [modules, setModules] = useState([]);
+  const [globalState, globalActions] = useGlobal();
 
   useEffect(() => {
-    fetchModules().then(modules => setModules(modules));
-  }, []);
+    globalActions.module.fetchModules();
+  }, [globalActions.module]);
 
-  return <SwipeableModules modules={modules} />;
+  return <SwipeableModules modules={globalState.modules} />;
 };
 
 export default Home;
