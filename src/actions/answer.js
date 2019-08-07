@@ -6,8 +6,15 @@ export const setIsVerified = (store, isVerified) => {
   store.setState({ isVerified });
 };
 
-export const verifyAnswer = (store, question) => {
-  if (question.rightAnswer === store.state.currentAnswer) {
+export const setCurrentAnswer = (store, currentAnswer) => {
+  store.setState({ currentAnswer });
+};
+
+export const verifyAnswer = (store, questionIndex) => {
+  if (
+    store.state.questions[questionIndex].rightAnswer ===
+    store.state.currentAnswer
+  ) {
     console.log('correto');
     store.actions.answer.setIsVerified(true);
   }
