@@ -1,15 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import fetchQuestions from '../services/lessonService'
-import SwipeableQuestions from '../components/SwipeableQuestions'
+import React, { useEffect } from 'react';
+import useGlobal from '../store';
+import SwipeableQuestions from '../components/SwipeableQuestions';
 
-const Lesson = () =>{
-  const [questions, setQuestions] = useState([]);
+const Lesson = props => {
+  const [globalState, globalActions] = useGlobal();
+
+  const { params } = props.match;
 
   useEffect(() => {
-    fetchQuestions(questions).then(questions => setQuestions(questions));
-  }, [questions]);
+    globalActions.lesson.fetchQuestions(params);
+  }, [globalActions.lesson, params]);
 
-  return <SwipeableQuestions questions={questions} />;
+  return <SwipeableQuestions questions={globalState.questions} />;
 };
 
 export default Lesson;
