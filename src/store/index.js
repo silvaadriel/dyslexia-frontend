@@ -9,6 +9,7 @@ const initialState = {
   currentAnswer: '',
   modules: [],
   questions: [],
+  score: 0,
 };
 
 const useGlobal = useGlobalHook(React, initialState, actions);
