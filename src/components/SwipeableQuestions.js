@@ -53,7 +53,7 @@ const useStyles = makeStyles(theme => ({
 
 const SwipeableQuestions = ({ questions }) => {
   const classes = useStyles();
-  const maxSteps = questions.length;
+  const maxSteps = questions.length + 1;
   const [activeStep, setActiveStep] = useState(0);
   const [globalState, globalActions] = useGlobal();
 
@@ -92,7 +92,7 @@ const SwipeableQuestions = ({ questions }) => {
             size="medium"
             classes={{ extended: classes.rightFab }}
             onClick={handleNext}
-            disabled={activeStep === maxSteps - 1 || !globalState.isAnswered}
+            disabled={!globalState.isAnswered}
             aria-label={globalState.isVerified ? 'Próximo' : 'Verificar'}
           >
             {globalState.isVerified ? 'Próximo' : 'Verificar'}
