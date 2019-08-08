@@ -15,8 +15,14 @@ export const verifyAnswer = (store, questionIndex) => {
     store.state.questions[questionIndex].rightAnswer ===
     store.state.currentAnswer
   ) {
-    console.log('correto');
+    store.setState({ score: store.state.score + 1 });
+    console.log('correto', store.state.score);
+    console.log(store.actions.score.getEarnedStars(), ' estrelas');
     store.actions.answer.setIsVerified(true);
+  } else {
+    store.actions.answer.setIsVerified(true);
+    const questions = [...store.state.questions];
+    questions.push(store.state.questions[questionIndex]);
+    store.setState({ questions });
   }
-  store.actions.answer.setIsVerified(true);
 };
