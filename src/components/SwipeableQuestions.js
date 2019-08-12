@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid, MobileStepper, Fab } from '@material-ui/core';
 import { Help, KeyboardArrowRight } from '@material-ui/icons/';
 import QuestionCard from './QuestionCard';
+import Score from './Score';
 import SwipeableViews from 'react-swipeable-views';
 
 const useStyles = makeStyles(theme => ({
@@ -82,6 +83,7 @@ const SwipeableQuestions = ({ questions }) => {
         {questions.map((question, index) => (
           <QuestionCard step={question} key={index} />
         ))}
+        <Score />
       </SwipeableViews>
       <MobileStepper
         variant="progress"
