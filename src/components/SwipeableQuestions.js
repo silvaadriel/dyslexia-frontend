@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import useGlobal from '../store';
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid, MobileStepper, Fab } from '@material-ui/core';
-import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons/';
+import { Help, KeyboardArrowRight } from '@material-ui/icons/';
 import QuestionCard from './QuestionCard';
 import SwipeableViews from 'react-swipeable-views';
 
@@ -34,6 +34,7 @@ const useStyles = makeStyles(theme => ({
   rightFab: {
     '&.MuiFab-sizeMedium': {
       boxShadow: 'none',
+      width: '125px',
       [theme.breakpoints.down('xs')]: {
         width: '40%',
         borderRadius: '0px 20px 20px 0px',
@@ -43,6 +44,7 @@ const useStyles = makeStyles(theme => ({
   leftFab: {
     '&.MuiFab-sizeMedium': {
       boxShadow: 'none',
+      width: '125px',
       [theme.breakpoints.down('xs')]: {
         width: '40%',
         borderRadius: '20px 0px 0px 20px',
@@ -93,9 +95,9 @@ const SwipeableQuestions = ({ questions }) => {
             classes={{ extended: classes.rightFab }}
             onClick={handleNext}
             disabled={!globalState.isAnswered}
-            aria-label={globalState.isVerified ? 'Próximo' : 'Verificar'}
+            aria-label={globalState.isVerified ? 'Continuar' : 'Verificar'}
           >
-            {globalState.isVerified ? 'Próximo' : 'Verificar'}
+            {globalState.isVerified ? 'Continuar' : 'Verificar'}
             <KeyboardArrowRight />
           </Fab>
         }
@@ -106,10 +108,10 @@ const SwipeableQuestions = ({ questions }) => {
             classes={{ extended: classes.leftFab }}
             onClick={handleBack}
             disabled={activeStep === 0}
-            aria-label="Anterior"
+            aria-label="Ajuda"
           >
-            <KeyboardArrowLeft />
-            Anterior
+            <Help />
+            Ajuda
           </Fab>
         }
       />
