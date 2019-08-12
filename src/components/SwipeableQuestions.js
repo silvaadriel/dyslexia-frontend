@@ -51,6 +51,9 @@ const useStyles = makeStyles(theme => ({
       },
     },
   },
+  rightIconMargin: {
+    marginRight: theme.spacing(1),
+  },
 }));
 
 const SwipeableQuestions = ({ questions }) => {
@@ -110,7 +113,7 @@ const SwipeableQuestions = ({ questions }) => {
             disabled={activeStep === 0}
             aria-label="Ajuda"
           >
-            <Help />
+            <Help className={classes.rightIconMargin} />
             Ajuda
           </Fab>
         }
