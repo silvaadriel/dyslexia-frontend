@@ -1,10 +1,9 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 
-export default createMuiTheme({
+const theme = createMuiTheme({
   typography: {
-    fontFamily: [
-      'Dosis',
-      'sans-serif'
-    ].join(','),
+    fontFamily: ['Dosis', 'sans-serif'].join(','),
   },
 });
+
+export default responsiveFontSizes(theme);
