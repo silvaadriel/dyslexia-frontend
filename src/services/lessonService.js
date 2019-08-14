@@ -12,7 +12,7 @@ const fetchQuestions = ({ lessonId, moduleId }) => {
       )[0].questions;
 
       resolve(questions);
-    }, 10);
+    }, 1000);
   });
 };
 
