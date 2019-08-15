@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/dyslexia-frontend/static/js/main.e0a92fbe.chunk.js",
-    "main.js.map": "/dyslexia-frontend/static/js/main.e0a92fbe.chunk.js.map",
+    "main.js": "/dyslexia-frontend/static/js/main.e4c3d26d.chunk.js",
+    "main.js.map": "/dyslexia-frontend/static/js/main.e4c3d26d.chunk.js.map",
     "runtime~main.js": "/dyslexia-frontend/static/js/runtime~main.9f324e78.js",
     "runtime~main.js.map": "/dyslexia-frontend/static/js/runtime~main.9f324e78.js.map",
     "static/js/2.3e468c0c.chunk.js": "/dyslexia-frontend/static/js/2.3e468c0c.chunk.js",
     "static/js/2.3e468c0c.chunk.js.map": "/dyslexia-frontend/static/js/2.3e468c0c.chunk.js.map",
     "index.html": "/dyslexia-frontend/index.html",
-    "precache-manifest.dd5601636030cc309c69e208d6b95f28.js": "/dyslexia-frontend/precache-manifest.dd5601636030cc309c69e208d6b95f28.js",
+    "precache-manifest.0c0db8d04ee12301be08ce290e2a2b21.js": "/dyslexia-frontend/precache-manifest.0c0db8d04ee12301be08ce290e2a2b21.js",
     "service-worker.js": "/dyslexia-frontend/service-worker.js"
   }
 }
