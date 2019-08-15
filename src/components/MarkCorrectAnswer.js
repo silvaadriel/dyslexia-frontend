@@ -21,6 +21,10 @@ const useStyles = makeStyles({
     border: '1px solid rgba(0, 0, 0, 0.25)',
     borderRadius: '2px',
     backgroundColor: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: '1.2rem',
+    textTransform: 'none',
+    marginBottom: '10px',
     '&:not(:first-child)': {
       borderLeft: '1px solid rgba(0, 0, 0, 0.25)',
       marginLeft: '0',
@@ -37,7 +41,7 @@ const useStyles = makeStyles({
   toggleButtonGroupRoot: {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-around',
+    justifyContent: 'flex-start',
     height: '200px',
     width: '350px',
     backgroundColor: 'transparent',
@@ -71,8 +75,8 @@ const MarkCorrectAnswer = ({ step }) => {
     >
       <Grid item container spacing={4} justify="center" alignItems="center">
         <Grid item>
-          <Typography align="center" component="h1" variant="h4">
-            <Box fontWeight="600">{step.question}</Box>
+          <Typography align="center" component="h1" variant="h5">
+            <Box fontWeight="700">{step.question}</Box>
           </Typography>
         </Grid>
         <Grid item>
