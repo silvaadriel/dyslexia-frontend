@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f32e3f2936dce98c016ee8dc88d6f9ac",
+    "revision": "c99d0f65a6936200c54ed6ea792ad148",
     "url": "/dyslexia-frontend/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dyslexia-frontend/static/js/2.3e468c0c.chunk.js"
   },
   {
-    "revision": "77c0f55888f0dd794003",
-    "url": "/dyslexia-frontend/static/js/main.bef27b66.chunk.js"
+    "revision": "2b8e48700110e7955733",
+    "url": "/dyslexia-frontend/static/js/main.e0a92fbe.chunk.js"
   },
   {
     "revision": "03ea934d8a1107876862",

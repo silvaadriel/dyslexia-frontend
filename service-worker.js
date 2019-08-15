@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dyslexia-frontend/precache-manifest.85a13b95feb41b9f9d90bdbf5db46313.js"
+  "/dyslexia-frontend/precache-manifest.dd5601636030cc309c69e208d6b95f28.js"
 );
 
 self.addEventListener('message', (event) => {
