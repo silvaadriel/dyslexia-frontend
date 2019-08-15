@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/dyslexia-frontend/static/js/main.89ca3633.chunk.js",
-    "main.js.map": "/dyslexia-frontend/static/js/main.89ca3633.chunk.js.map",
+    "main.js": "/dyslexia-frontend/static/js/main.35ff951a.chunk.js",
+    "main.js.map": "/dyslexia-frontend/static/js/main.35ff951a.chunk.js.map",
     "runtime~main.js": "/dyslexia-frontend/static/js/runtime~main.9f324e78.js",
     "runtime~main.js.map": "/dyslexia-frontend/static/js/runtime~main.9f324e78.js.map",
-    "static/js/2.8054230e.chunk.js": "/dyslexia-frontend/static/js/2.8054230e.chunk.js",
-    "static/js/2.8054230e.chunk.js.map": "/dyslexia-frontend/static/js/2.8054230e.chunk.js.map",
+    "static/js/2.b89dcc75.chunk.js": "/dyslexia-frontend/static/js/2.b89dcc75.chunk.js",
+    "static/js/2.b89dcc75.chunk.js.map": "/dyslexia-frontend/static/js/2.b89dcc75.chunk.js.map",
     "index.html": "/dyslexia-frontend/index.html",
-    "precache-manifest.3d67d96a61b77f4ecaed9bcbb5342cd8.js": "/dyslexia-frontend/precache-manifest.3d67d96a61b77f4ecaed9bcbb5342cd8.js",
+    "precache-manifest.a87b6d12604a8bdaaab2cbecda398a0b.js": "/dyslexia-frontend/precache-manifest.a87b6d12604a8bdaaab2cbecda398a0b.js",
     "service-worker.js": "/dyslexia-frontend/service-worker.js"
   }
 }
