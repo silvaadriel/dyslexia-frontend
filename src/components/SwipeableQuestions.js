@@ -5,6 +5,7 @@ import { Grid, MobileStepper, Fab } from '@material-ui/core';
 import { Help, KeyboardArrowRight } from '@material-ui/icons/';
 import QuestionCard from './QuestionCard';
 import Score from './Score';
+import HelpDialog from './HelpDialog';
 import SwipeableViews from 'react-swipeable-views';
 
 const useStyles = makeStyles(theme => ({
@@ -111,17 +112,24 @@ const SwipeableQuestions = ({ questions }) => {
           </Fab>
         }
         backButton={
-          <Fab
-            variant="extended"
-            size="medium"
-            classes={{ extended: classes.leftFab }}
-            onClick={handleBack}
-            disabled={activeStep === 0}
-            aria-label="Ajuda"
+          <HelpDialog
+            helpText={
+              activeStep === maxSteps - 1
+                ? ''
+                : globalState.questions[activeStep].helpText
+            }
           >
-            <Help className={classes.rightIconMargin} />
-            Ajuda
-          </Fab>
+            <Fab
+              variant="extended"
+              size="medium"
+              classes={{ extended: classes.leftFab }}
+              disabled={activeStep === maxSteps - 1}
+              aria-label="Ajuda"
+            >
+              <Help className={classes.rightIconMargin} />
+              Ajuda
+            </Fab>
+          </HelpDialog>
         }
       />
     </Grid>
