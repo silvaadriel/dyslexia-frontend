@@ -13,7 +13,8 @@
               "title": "...anheira"
             },
             "alternatives": ["p", "b"],
-            "rightAnswer": "b"
+            "rightAnswer": "b",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Escolha a letra que falta.",
@@ -23,7 +24,8 @@
               "title": "...abana"
             },
             "alternatives": ["c", "g"],
-            "rightAnswer": "c"
+            "rightAnswer": "c",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Escolha a letra que falta.",
@@ -33,7 +35,8 @@
               "title": "...inossauro"
             },
             "alternatives": ["t", "d"],
-            "rightAnswer": "d"
+            "rightAnswer": "d",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Escolha a letra que falta.",
@@ -43,7 +46,8 @@
               "title": "...ato"
             },
             "alternatives": ["g", "c"],
-            "rightAnswer": "g"
+            "rightAnswer": "g",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Escolha a letra que falta.",
@@ -53,7 +57,8 @@
               "title": "...obra"
             },
             "alternatives": ["g", "c"],
-            "rightAnswer": "c"
+            "rightAnswer": "c",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Escolha a letra que falta.",
@@ -63,7 +68,8 @@
               "title": "...anela"
             },
             "alternatives": ["p", "b"],
-            "rightAnswer": "p"
+            "rightAnswer": "p",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Escolha a letra que falta.",
@@ -73,7 +79,8 @@
               "title": "...artaruga"
             },
             "alternatives": ["d", "t"],
-            "rightAnswer": "t"
+            "rightAnswer": "t",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Escolha a letra que falta.",
@@ -83,7 +90,8 @@
               "title": "...ipa"
             },
             "alternatives": ["p", "b"],
-            "rightAnswer": "p"
+            "rightAnswer": "p",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Escolha a letra que falta.",
@@ -93,7 +101,8 @@
               "title": "...elefone"
             },
             "alternatives": ["t", "d"],
-            "rightAnswer": "t"
+            "rightAnswer": "t",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           }
         ]
       },
@@ -108,7 +117,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 2",
@@ -118,7 +128,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 3",
@@ -128,7 +139,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 4",
@@ -138,7 +150,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 5",
@@ -148,7 +161,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 6",
@@ -158,7 +172,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           }
         ]
       },
@@ -173,7 +188,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 2",
@@ -183,7 +199,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 3",
@@ -193,7 +210,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 4",
@@ -203,7 +221,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 5",
@@ -213,7 +232,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 6",
@@ -223,7 +243,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           }
         ]
       },
@@ -238,7 +259,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 2",
@@ -248,7 +270,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 3",
@@ -258,7 +281,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 4",
@@ -268,7 +292,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 5",
@@ -278,7 +303,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 6",
@@ -288,7 +314,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           }
         ]
       }
@@ -308,7 +335,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 2",
@@ -318,7 +346,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 3",
@@ -328,7 +357,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 4",
@@ -338,7 +368,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 5",
@@ -348,7 +379,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 6",
@@ -358,7 +390,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           }
         ]
       },
@@ -373,7 +406,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 2",
@@ -383,7 +417,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 3",
@@ -393,7 +428,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 4",
@@ -403,7 +439,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 5",
@@ -413,7 +450,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 6",
@@ -423,7 +461,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           }
         ]
       },
@@ -438,7 +477,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 2",
@@ -448,7 +488,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 3",
@@ -458,7 +499,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 4",
@@ -468,7 +510,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 5",
@@ -478,7 +521,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 6",
@@ -488,7 +532,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           }
         ]
       },
@@ -503,7 +548,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 2",
@@ -513,7 +559,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 3",
@@ -523,7 +570,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 4",
@@ -533,7 +581,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 5",
@@ -543,7 +592,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           },
           {
             "question": "Questão 6",
@@ -553,7 +603,8 @@
               "title": "Contemplative Reptile"
             },
             "alternatives": ["alternative 1", "alternative 2", "alternative 3"],
-            "rightAnswer": "alternative 1"
+            "rightAnswer": "alternative 1",
+            "helpText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus, tellus eget commodo consequat, justo orci lacinia magna, non congue nibh metus sed orci."
           }
         ]
       }
