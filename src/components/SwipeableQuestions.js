@@ -79,7 +79,11 @@ const SwipeableQuestions = ({ questions }) => {
 
   return (
     <Grid>
-      <SwipeableViews index={activeStep} onChangeIndex={handleStepChange}>
+      <SwipeableViews
+        index={activeStep}
+        onChangeIndex={handleStepChange}
+        disabled
+      >
         {questions.map((question, index) => (
           <QuestionCard step={question} key={index} />
         ))}
