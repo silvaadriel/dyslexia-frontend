@@ -11,7 +11,7 @@ import {
 } from '@material-ui/core';
 import { ToggleButton, ToggleButtonGroup } from '@material-ui/lab';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   img: {
     maxWidth: '400px',
     borderRadius: '10px',
@@ -45,8 +45,11 @@ const useStyles = makeStyles({
     height: '200px',
     width: '350px',
     backgroundColor: 'transparent',
+    [theme.breakpoints.down('xs')]: {
+      width: '300px',
+    },
   },
-});
+}));
 
 const MarkCorrectAnswer = ({ step }) => {
   const classes = useStyles();
