@@ -64,8 +64,6 @@ const SwipeableQuestions = ({ questions }) => {
   const [activeStep, setActiveStep] = useState(0);
   const [globalState, globalActions] = useGlobal();
 
-  const handleBack = () => setActiveStep(prevActiveStep => prevActiveStep - 1);
-
   const handleNext = () => {
     if (globalState.isVerified) {
       setActiveStep(prevActiveStep => prevActiveStep + 1);
