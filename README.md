@@ -1,3 +1,7 @@
+## Dyslexia Project
+
+Preview: https://silvaadriel.github.io/dyslexia-frontend/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
