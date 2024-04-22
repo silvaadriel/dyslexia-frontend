@@ -38,6 +38,6 @@
   },
   "homepage": "http://silvaadriel.github.io/dyslexia-frontend",
   "devDependencies": {
-    "gh-pages": "2.0.1"
+    "gh-pages": "5.0.0"
   }
 }
